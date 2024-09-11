@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7px 5rem;
+    padding: 7px 3rem;
 }
 .home_logo{
     height: 74px;
@@ -11,19 +11,37 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   color: var(--primary-color);
-   text-transform: uppercase;
+   
+   
 }
+.home_logo p{
+   margin-top: 7px;
+   font-family: 'khula-bold' ;
+}
+.home_logo span{
+  color: var(--primary-color);
+  font-family: 'khula-bold' ;
+}
+.home_logo img{
+ 
+  margin-right: 5px;
+ }
 .home_login{
     
     font-size: 16px;
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
    color: var(--primary-color);
-   text-transform: uppercase;
+  
 }
-
+.home_login img{
+    height: 30px;
+    margin-left: 30px;
+}
+.home_login p{
+ margin-top: 7px;
+}
 .home_hero{
    background: url('/public/images/hero-image.jpg');
    background-size: cover;
@@ -34,11 +52,17 @@
    align-items: center;
    padding-top: 10rem;
    gap: 3rem;
+   
 }
 
 .home_hero-title{
-   font-size: 48px;
+   font-size: 50px;
    text-transform: uppercase;
+   font-family: 'boska-regular';
+   color: rgb(1, 54, 54);
+   letter-spacing: 4px;
+   filter: drop-shadow(2px 2px 2px #87878793);
+   
  }
 
  .home_filters {

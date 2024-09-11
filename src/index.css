@@ -9,7 +9,7 @@
     --secondary-color: #FF9900;
     --underline-color: #c7def7;
     --layer-color: rgba(18, 23, 49, 0.886);
-    --background-color: rgb(245, 245, 253);
+    --background-color: #F2F2F2;
     --footer-color: #1d2738;
    
   
@@ -43,6 +43,18 @@
   @font-face {
     font-family: 'khula-extrabold';
     src: url('../public/fonts/Khula-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'boska-regular';
+    src: url('../public/fonts/Boska-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ibarra-nova-regular';
+    src: url('../public/fonts/IbarraRealNova-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }

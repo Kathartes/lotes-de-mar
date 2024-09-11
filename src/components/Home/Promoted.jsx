@@ -91,17 +91,7 @@ const Promoted = () => {
            </div>
          </SwiperSlide>
           ))}
-        <SwiperSlide>
-          <div className='promoted_card' >
-            <div className='promoted_card_image'>
-              <img src="/images/casa-1.png" alt="" />
-            </div>
-            <h4>Punta del Este, Maldonado</h4>
-            <p>6 Dormitorios • 4 baños • 350m2 </p>
-            <p>U$s 4000 mes</p>
-            <button className='promoted_button'>Más info</button>
-          </div>
-        </SwiperSlide>
+       
       </Swiper>
         </article>
         </section>

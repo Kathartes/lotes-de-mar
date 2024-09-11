@@ -11,14 +11,16 @@ const Header = () => {
         <>
         <header className='home_header'>
             <div className='home_logo'>
-                <p className='home_logo-title'>Lotes de mar</p>
+                <img src="/icons/whale.png" alt="" />
+                <p className='home_logo-title'>Lotesde<span>mar</span></p>
             </div>
             <div className='home_login'>
-                <p className='home_logo-login'>login</p>
+                <p className='home_logo-login'>Publica una propiedad</p>
+                <img src="/icons/user.png" alt="" />
             </div>
         </header>
         <section className='home_hero'>
-            <h1 className='home_hero-title'>comprar y alquilar lotes cerca del mar</h1>
+            <h1 className='home_hero-title'>vivir y vacacionar junto al mar</h1>
             <div className='home_hero_search'>
                 <div className='home_hero_filters'> 
                     <button className='home_hero_filters-button' type="submit">Venta</button>

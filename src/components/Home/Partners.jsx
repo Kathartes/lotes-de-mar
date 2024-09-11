@@ -14,11 +14,57 @@ import 'swiper/css';
 
 
 const Partners= () => {
-  
+  const agencies = [
+    { 
+      image: '/images/agencia-1.png',
+      title: 'Inmobiliaria Taylers', 
+      mail: 'tayler.realestate@gmail.com',
+      url: '/catalog',
+      phone: '+598 98 47 56 92'
+    },
+    { 
+      image: '/images/agencia-2.png',
+      title: 'Inmobiliaria Taylers', 
+      mail: 'tayler.realestate@gmail.com',
+      url: '/catalog',
+      phone: '+598 98 47 56 92'
+    },
+    { 
+      image: '/images/agencia-3.png',
+      title: 'Inmobiliaria Taylers', 
+      mail: 'tayler.realestate@gmail.com',
+      url: '/catalog',
+      phone: '+598 98 47 56 92'
+    },
+    { 
+      image: '/images/agencia-4.png',
+      title: 'Inmobiliaria Taylers', 
+      mail: 'tayler.realestate@gmail.com',
+      url: '/catalog',
+      phone: '+598 98 47 56 92'
+    },
+    { 
+      image: '/images/agencia-5.png',
+      title: 'Inmobiliaria Taylers', 
+      mail: 'tayler.realestate@gmail.com',
+      url: '/catalog',
+      phone: '+598 98 47 56 92'
+    },
+    { 
+      image: '/images/agencia-1.png',
+      title: 'Inmobiliaria Taylers', 
+      mail: 'tayler.realestate@gmail.com',
+      url: '/catalog',
+      phone: '+598 98 47 56 92'
+    },
+      
+  ];
     return (
-        <section className='home_partners'>
+      <section className='home_partners'>
+       <h2 className='home_promoted-title'>inmobiliarias adheridas</h2>
+        <article className='home_partners_slider'>
               <Swiper
-        slidesPerView={5}
+        slidesPerView={5.5}
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -26,17 +72,23 @@ const Partners= () => {
        
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        {agencies.map((agency, index) =>( 
+           <SwiperSlide>
+           <div className='partners_card' key={index}>
+             <div className='partners_card_image'>
+               <img src={agency.image} alt="" />
+             </div>
+             <h4>{agency.title}</h4>
+             <p>{agency.mail}</p>
+             <p>{agency.phone}<span>{agency.type}</span></p>
+             <button className='promoted_button'>Consultar</button>
+           </div>
+         </SwiperSlide>
+          ))}
+       
       </Swiper>
-        </section>
+        </article>
+      </section>
     );
 };
 

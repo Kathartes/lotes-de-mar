@@ -31,6 +31,7 @@
   .location_article {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
   
   .location_article-image {
@@ -39,11 +40,14 @@
     overflow: hidden;
   }
   .location_article-content {
-    background-color: rgb(211, 222, 223);
-    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    width: 35%;
    text-align: left;
    line-height: 2;
-    padding: 3rem;
+    padding:  5rem 4rem ;
+    gap: 2rem;
   }
   .swiper-button-next,
   .swiper-button-prev {

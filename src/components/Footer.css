@@ -8,3 +8,33 @@
     align-items: center;
     color: white;
 }
+
+.footer_logo{
+    height: 74px;
+    font-size: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.footer_logo p{
+   margin-top: 7px;
+   font-family: 'khula-bold' ;
+   color: white;
+}
+.footer_logo span{
+  color: rgb(43, 43, 43);
+  font-family: 'khula-bold' ;
+}
+.footer_logo img{
+ 
+  margin-right: 5px;
+ }
+
+ .footer_social {
+    margin-top: 25px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+ }
