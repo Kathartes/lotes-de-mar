@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'khula-regular';
   }
   :root {
     --primary-color: teal;
@@ -12,4 +13,41 @@
     --footer-color: #1d2738;
    
   
+  }
+  @font-face {
+    font-family: 'khula-bold';
+    src: url('/fonts/Khula-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'khula-semibold';
+    src: url('/fonts/Khula-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'khula-regular';
+    src: url('../public/fonts/Khula-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'khula-light';
+    src: url('/fonts/Khula-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'khula-extrabold';
+    src: url('../public/fonts/Khula-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  h1 {
+    font-family: 'khula-bold';
   }
