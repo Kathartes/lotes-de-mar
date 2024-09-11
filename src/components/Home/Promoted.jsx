@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import './Promoted.css';
 // Import Swiper styles
 import 'swiper/css';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -20,7 +20,7 @@ const Promoted = () => {
       type: 'alquiler', 
       title: 'Punta del Este, Maldonado', 
       description: '6 Dormitorios • 4 baños • 350m2',
-      url: '/catalog',
+      url: '/property',
       price: 'U$s 4000'
     },
     { 
@@ -28,14 +28,14 @@ const Promoted = () => {
       type: 'alquiler', 
       title: 'Punta del Este, Maldonado', 
       description: '6 Dormitorios • 4 baños • 350m2',
-      url: '/catalog',
+      url: '/property',
       price: 'U$s 4000'},
     { 
       image: '/images/casa-3.png',
       type: 'alquiler', 
       title: 'Punta del Este, Maldonado', 
       description: '6 Dormitorios • 4 baños • 350m2',
-      url: '/catalog',
+      url: '/property',
       price: 'U$s 4000'
     },
     { 
@@ -43,7 +43,7 @@ const Promoted = () => {
       type: 'alquiler', 
       title: 'Punta del Este, Maldonado', 
       description: '6 Dormitorios • 4 baños • 350m2',
-      url: '/catalog',
+      url: '/property',
       price: 'U$s 4000'
     },
   { 
@@ -51,7 +51,7 @@ const Promoted = () => {
     type: 'alquiler', 
     title: 'Punta del Este, Maldonado', 
     description: '6 Dormitorios • 4 baños • 350m2',
-    url: '/catalog',
+    url: '/property',
     price: 'U$s 4000'
   },
   { 
@@ -59,7 +59,7 @@ const Promoted = () => {
     type: 'alquiler', 
     title: 'Punta del Este, Maldonado', 
     description: '6 Dormitorios • 4 baños • 350m2',
-    url: '/catalog',
+    url: '/property',
     price: 'U$s 4000'},
       
   ];
@@ -87,7 +87,7 @@ const Promoted = () => {
              <h4>{product.title}</h4>
              <p>{product.description}</p>
              <p>{product.price}<span>{product.type}</span></p>
-             <button className='promoted_button'>Más info</button>
+             <Link className='promoted_button' to={product.url}>Más info</Link>
            </div>
          </SwiperSlide>
           ))}

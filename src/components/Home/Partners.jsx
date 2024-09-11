@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import './Partners.css';
 // Import Swiper styles
 import 'swiper/css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,7 +20,7 @@ const Partners= () => {
       image: '/images/agencia-1.png',
       title: 'Inmobiliaria Taylers', 
       mail: 'tayler.realestate@gmail.com',
-      url: '/catalog',
+      url: '/property',
       phone: '+598 98 47 56 92'
     },
     { 
@@ -33,28 +34,28 @@ const Partners= () => {
       image: '/images/agencia-3.png',
       title: 'Inmobiliaria Taylers', 
       mail: 'tayler.realestate@gmail.com',
-      url: '/catalog',
+      url: '/property',
       phone: '+598 98 47 56 92'
     },
     { 
       image: '/images/agencia-4.png',
       title: 'Inmobiliaria Taylers', 
       mail: 'tayler.realestate@gmail.com',
-      url: '/catalog',
+      url: '/property',
       phone: '+598 98 47 56 92'
     },
     { 
       image: '/images/agencia-5.png',
       title: 'Inmobiliaria Taylers', 
       mail: 'tayler.realestate@gmail.com',
-      url: '/catalog',
+      url: '/property',
       phone: '+598 98 47 56 92'
     },
     { 
       image: '/images/agencia-1.png',
       title: 'Inmobiliaria Taylers', 
       mail: 'tayler.realestate@gmail.com',
-      url: '/catalog',
+      url: '/property',
       phone: '+598 98 47 56 92'
     },
       
@@ -74,14 +75,16 @@ const Partners= () => {
       >
         {agencies.map((agency, index) =>( 
            <SwiperSlide>
-           <div className='partners_card' key={index}>
+           <div className='partners_card' key={index} to={agency.url}>
              <div className='partners_card_image'>
                <img src={agency.image} alt="" />
              </div>
              <h4>{agency.title}</h4>
              <p>{agency.mail}</p>
              <p>{agency.phone}<span>{agency.type}</span></p>
+             <Link > 
              <button className='promoted_button'>Consultar</button>
+             </Link>
            </div>
          </SwiperSlide>
           ))}

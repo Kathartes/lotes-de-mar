@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import SearchBar from '../utils/SearchBar';
 
 
 
@@ -21,17 +22,7 @@ const Header = () => {
         </header>
         <section className='home_hero'>
             <h1 className='home_hero-title'>vivir y vacacionar junto al mar</h1>
-            <div className='home_hero_search'>
-                <div className='home_hero_filters'> 
-                    <button className='home_hero_filters-button' type="submit">Venta</button>
-                    <button className='home_hero_filters-button' type="submit">Alquiler</button>
-                    <button className='home_hero_filters-button' type="submit">Temporal</button>
-                </div>
-                <form className='home_hero_search_form' action="#">
-                    <input className='home_hero_search_form-input'  type="text" placeholder="Search.." name="search"></input>
-                    <button className='home_hero_filters-button' type="submit">Buscar</button>
-                </form>
-            </div>
+            <SearchBar />
         </section>
         <section className='home_filters'>
             <h2 className='home_filters-title'>busca rapidamente segun tus preferencias</h2>
