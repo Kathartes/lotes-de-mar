@@ -24,14 +24,14 @@ const Promoted = () => {
       price: 'U$s 4000'
     },
     { 
-      image: '/images/casa-1.png',
+      image: '/images/casa-2.png',
       type: 'alquiler', 
       title: 'Punta del Este, Maldonado', 
       description: '6 Dormitorios • 4 baños • 350m2',
       url: '/catalog',
       price: 'U$s 4000'},
     { 
-      image: '/images/casa-1.png',
+      image: '/images/casa-3.png',
       type: 'alquiler', 
       title: 'Punta del Este, Maldonado', 
       description: '6 Dormitorios • 4 baños • 350m2',
@@ -39,7 +39,7 @@ const Promoted = () => {
       price: 'U$s 4000'
     },
     { 
-      image: '/images/casa-1.png',
+      image: '/images/casa-4.png',
       type: 'alquiler', 
       title: 'Punta del Este, Maldonado', 
       description: '6 Dormitorios • 4 baños • 350m2',
@@ -47,7 +47,7 @@ const Promoted = () => {
       price: 'U$s 4000'
     },
   { 
-    image: '/images/casa-1.png',
+    image: '/images/casa-5.png',
     type: 'alquiler', 
     title: 'Punta del Este, Maldonado', 
     description: '6 Dormitorios • 4 baños • 350m2',
