@@ -27,7 +27,10 @@ const Header = () => {
         <section className='home_filters'>
             <h2 className='home_filters-title'>busca rapidamente segun tus preferencias</h2>
             <article className='home_filters_article'>
-            
+            <Link className='home_filters_article-links' to='#'>
+                <img src="/public/icons/project.png" alt="" />
+                proyectos
+            </Link>
             <Link className='home_filters_article-links' to='#'>
                 <img src="/public/icons/tree.png" alt="" />
                 terrenos
