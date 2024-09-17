@@ -35,17 +35,20 @@ const HeroProperty= () => {
             </p>
         </article>
         <article className='property_contact'>
-            <figure>
-                <img src="" alt="" />
-                <figcaption></figcaption>
-            </figure>
+            <div> 
+                <figure>
+                    <img src="/images/swim.png" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                
+            </div>
             <ul className='property_contact_state'>
                 <li>MONOAMBIENTE DESDE USD 80.500</li>
                 <li>1 DORM. DESDE USD 111.900</li>
                 <li>2 DORM. DESDE USD 155.900</li>
                 <li>Código: 924388</li>
             </ul>
-            <button>Contactenos</button>
+            <button className='property_contact_button'>Contactenos</button>
         </article>
         </div>
        </section>

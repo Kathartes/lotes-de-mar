@@ -18,7 +18,7 @@ const Navbar = () => {
             <Location />
             <Team />
             <Partners />
-            <News />
+         
         </>
     );
 };
