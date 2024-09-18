@@ -4,6 +4,9 @@
     gap: 3rem;
     background-color: var(--background-color);
 }
+.property_description h2{
+    text-transform: uppercase;
+}
 .property_article-location {
     height: 600px;
     object-fit: contain;
@@ -33,7 +36,10 @@
     padding: 5rem 2rem;
   }
 
-  .property_location-title,
+  .property_location-title{
+    margin-left: 3rem;
+    text-transform: uppercase;
+  }
 .property_location-text{
   margin-left: 3rem;
 }

@@ -29,7 +29,7 @@
   
   @font-face {
     font-family: 'khula-regular';
-    src: url('../public/fonts/Khula-Regular.ttf') format('truetype');
+    src: url('/fonts/Khula-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -48,13 +48,13 @@
   }
   @font-face {
     font-family: 'boska-regular';
-    src: url('../public/fonts/Boska-Regular.otf') format('truetype');
+    src: url('/fonts/Boska-Regular.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'ibarra-nova-regular';
-    src: url('../public/fonts/IbarraRealNova-Regular.ttf') format('truetype');
+    src: url('/fonts/IbarraRealNova-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
