@@ -1,0 +1,38 @@
+.plan_hero {
+    width: 100%;
+    height: 70vh;
+    background: url(/public/images/plan-hero.png);
+    background-size: cover;
+    
+}
+.plan_hero-layer {
+    width: 100%;
+   height: 100%;
+   background-color: #00000099;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plan_hero_content-title {
+text-align: center;
+}
+
+.plan_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan_options {
+    display: flex;
+}
+.plan_tips {
+    text-align: center;
+}
+.plan_tips_content {
+    display: flex;
+    text-align: left;
+}
+
