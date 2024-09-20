@@ -23,13 +23,13 @@ const Plan = () => {
             <div className='plan_hero-layer'>
             <div className='plan_hero_content-title'>
                 <h1 className='plan_hero-title'>Publicá en el Portal Inmobiliario No.1 </h1>
-                <p>Más de 900 inmobiliarias y desarrolladoras ya confían en aihaus, vos también podés ser parte.</p>
+                <p className='plan_hero-subtitle' >Más de 900 inmobiliarias y desarrolladoras ya confían en aihaus, vos también podés ser parte.</p>
             </div>
-            <button>publicar una propiedad</button>
+            <button className='plan_hero-button'>publicar una propiedad</button>
             </div>
         </section>
         <section className='plan_section'>
-            <h2 className='home_section-title'>inMOBILIARIAS QUE PUBLICARON EN NUESTRO PORTAL, 
+            <h2 className='plan_section-title'>inMOBILIARIAS QUE PUBLICARON EN NUESTRO PORTAL,<br /> 
             INCREMENTARON SUS VENTAS EN UN 50% DESDE EL PRIMER MES</h2>
             <article className='plan_options'>
             <div className='plan_options_cards'>

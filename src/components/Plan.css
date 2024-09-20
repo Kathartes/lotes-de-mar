@@ -15,8 +15,31 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.plan_hero-title {
+    font-family: 'boska-regular';
+    font-size: 50px;
+    letter-spacing: 4px;
+    filter: drop-shadow(2px 2px 2px #87878793);
+}
+.plan_hero-subtitle {
+   
+    font-size: 26px;
+    margin-top: 10px;
+    filter: drop-shadow(2px 2px 2px #87878793);
+}
+.plan_hero-button {
+    background-color: #6D8BF7;
+    color: white;
+    padding: 15px 30px 10px 30px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 .plan_hero_content-title {
 text-align: center;
+
+
 }
 
 .plan_section {
@@ -24,6 +47,13 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.plan_section-title{
+    text-transform: uppercase;
+    color: #2240AD;
+    margin: 50px auto 100px;
 }
 .plan_options {
     display: flex;
