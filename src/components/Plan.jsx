@@ -33,41 +33,41 @@ const Plan = () => {
             INCREMENTARON SUS VENTAS EN UN 50% DESDE EL PRIMER MES</h2>
             <article className='plan_options'>
             <div className='plan_options_cards'>
-                <h3>plan 1</h3>
-                <p>Hasta 10 propiedades activas
+                <h3 className='plan_options_title'>plan 1</h3>
+                <p className='plan_options_count' >Hasta 10 propiedades activas
                 1 propiedad destacada</p>
                 <p>Propiedades ilimitadas en el historial.
                 Panel de gestión de propiedades.
                 Estadísticas de visitas y contactos. 
                 Gestor de proyectos, clientes y pedidos</p>
                 <p>U$S 115 /mes</p>
-                <Link className='home_filters_article-links' to='#'>
+                <Link className='plan_options_button' to='#'>
                     CONTINUAR
                 </Link>
             </div>
             <div className='plan_options_cards'>
-                <h3>plan 2</h3>
-                <p>Hasta 50 propiedades activas
+                <h3 className='plan_options_title'>plan 2</h3>
+                <p className='plan_options_count'>Hasta 50 propiedades activas
                 1 propiedad destacada</p>
                 <p>Propiedades ilimitadas en el historial.
                 Panel de gestión de propiedades.
                 Estadísticas de visitas y contactos. 
                 Gestor de proyectos, clientes y pedidos</p>
                 <p>U$S 115 /mes</p>
-                <Link className='home_filters_article-links' to='#'>
+                <Link className='plan_options_button' to='#'>
                     CONTINUAR
                 </Link>
             </div>
             <div className='plan_options_cards'>
-                <h3>plan 3</h3>
-                <p>Hasta 100 propiedades activas
+                <h3 className='plan_options_title'>plan 3</h3>
+                <p className='plan_options_count'>Hasta 100 propiedades activas
                 1 propiedad destacada</p>
                 <p>Propiedades ilimitadas en el historial.
                 Panel de gestión de propiedades.
                 Estadísticas de visitas y contactos. 
                 Gestor de proyectos, clientes y pedidos</p>
                 <p>U$S 115 /mes</p>
-                <Link className='home_filters_article-links' to='#'>
+                <Link className='plan_options_button' to='#'>
                     CONTINUAR
                 </Link>
             </div>
