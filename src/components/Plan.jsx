@@ -36,11 +36,11 @@ const Plan = () => {
                 <h3 className='plan_options_title'>plan 1</h3>
                 <p className='plan_options_count' >Hasta 10 propiedades activas
                 1 propiedad destacada</p>
-                <p>Propiedades ilimitadas en el historial.
+                <p className='plan_options_details'>Propiedades ilimitadas en el historial.
                 Panel de gestión de propiedades.
                 Estadísticas de visitas y contactos. 
                 Gestor de proyectos, clientes y pedidos</p>
-                <p>U$S 115 /mes</p>
+                <p className='plan_options_price'><span>U$S 115</span>  /mes</p>
                 <Link className='plan_options_button' to='#'>
                     CONTINUAR
                 </Link>
@@ -49,11 +49,11 @@ const Plan = () => {
                 <h3 className='plan_options_title'>plan 2</h3>
                 <p className='plan_options_count'>Hasta 50 propiedades activas
                 1 propiedad destacada</p>
-                <p>Propiedades ilimitadas en el historial.
+                <p className='plan_options_details'>Propiedades ilimitadas en el historial.
                 Panel de gestión de propiedades.
                 Estadísticas de visitas y contactos. 
                 Gestor de proyectos, clientes y pedidos</p>
-                <p>U$S 115 /mes</p>
+                <p className='plan_options_price'><span>U$S 115</span>  /mes</p>
                 <Link className='plan_options_button' to='#'>
                     CONTINUAR
                 </Link>
@@ -62,29 +62,29 @@ const Plan = () => {
                 <h3 className='plan_options_title'>plan 3</h3>
                 <p className='plan_options_count'>Hasta 100 propiedades activas
                 1 propiedad destacada</p>
-                <p>Propiedades ilimitadas en el historial.
+                <p className='plan_options_details'>Propiedades ilimitadas en el historial.
                 Panel de gestión de propiedades.
                 Estadísticas de visitas y contactos. 
                 Gestor de proyectos, clientes y pedidos</p>
-                <p>U$S 115 /mes</p>
+                <p className='plan_options_price'><span>U$S 115</span> /mes</p>
                 <Link className='plan_options_button' to='#'>
                     CONTINUAR
                 </Link>
             </div>
             </article>
-            <h4>¡Empezá a publicar hoy!</h4>
-            <p>Es un buen día para empezar algo nuevo. Publicá en InfoCasas y hacé crecer tu inmobiliaria.
+            <h4 className='plan_inter_title'>¡Empezá a publicar hoy!</h4>
+            <p className='plan_inter_subtitle'>Es un buen día para empezar algo nuevo. Publicá en InfoCasas y hacé crecer tu inmobiliaria.
             Seleccioná un plan para continuar</p>
         </section>
         <section className='plan_tips'>
-            <h2>lotesdemar</h2>
-            <p>tips</p>
+            <h2 className='plan_logo'>Lotesde<span>mar</span></h2>
+            <p className='plan_tips_subtitle'>tips</p>
             <div className='plan_tips_content'>
 
            
             <article >
-            <h5>9 estrategias para AUMENTAR ventas rápidamente</h5>
-            <ol>
+            <h5 className='tips_content_title'>9 estrategias para AUMENTAR ventas rápidamente</h5>
+            <ol className='tips_content_list'>
                 <li>Conoce los roles de tu equipo y su nivel de responsabilidad.</li>
                 <li>Dale las herramientas correctas a tu equipo.</li>
                 <li>Conoce el producto y cómo se ajusta a las necesidades del cliente.</li>
@@ -102,18 +102,18 @@ const Plan = () => {
                 Para incentivar un plan de acción inmediato te recomendamos asegurarte 
                 de las siguientes cosas:
             </p>
-            <ol>
+            <ul className='tips_content_list'>
                 <li>Que tu personal esté preparado para adoptar un nuevo plan de trabajo.</li>
                 <li>Que cuentas con los recursos necesarios para implementar estrategias más agresivas.</li>
                 <li>Que conoces los riesgos de las operaciones y los índices de ganancias que percibirás.</li>
-            </ol>
+            </ul>
             <p>Si cuentas con estos elementos, puedes implementar alguna o varias de las siguientes estrategias 
                 que te ayudarán a incrementar tus ingresos rápidamente.
             </p>
             </article>
             <article>
-            <h5>7 estrategias para aumentar las ventas a largo plazo</h5>
-            <ol>
+            <h5 className='tips_content_title'>7 estrategias para aumentar las ventas a largo plazo</h5>
+            <ol className='tips_content_list'>
                 <li>Enfócate en personalizar tu oferta.</li>
                 <li>Mejora la experiencia del cliente.</li>
                 <li>Planifica con tiempo los periodos promocionales.</li>
@@ -127,12 +127,12 @@ const Plan = () => {
                 las necesidades de la empresa. 
                 Es muy importante que consideres las siguientes actividades como esenciales:
             </p>
-            <ol>
+            <ul className='tips_content_list'>
                 <li>Acompañar a los representantes de ventas y al personal auxiliar en su día a día 
                     resolver sus dudas, optimizar los procesos, etc..</li>
                 <li>Organizar y distribuir el trabajo desde una perspectiva estratégica a nivel regional.</li>
                 <li>Comprender las debilidades y fortalezas del equipo.</li>
-            </ol>
+            </ul>
             <p>
                 Veamos algunas de las estrategias que puedes implementar para tu plan de crecimiento a largo plazo.
             </p>

@@ -77,7 +77,29 @@ text-align: center;
 .plan_options_title {
 color: var(--primary-color);
 text-transform: uppercase;
+font-size: 2rem;
 }
+.plan_options_count {
+    font-family: 'khula-semibold';
+    font-size: 1.2rem;
+}
+.plan_options_details {
+    
+    font-size: 1.2rem;
+}
+
+.plan_options_price{
+    font-size: 1.8rem;
+    margin: 3rem 0 2rem;
+    font-family: 'khula-light';
+ }
+ .plan_options_price span {
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-family: 'khula-semibold';
+ }
+
+
 .plan_options_button{
 position: absolute;
 bottom: 0;
@@ -88,13 +110,52 @@ text-decoration: none;
 background-color: var(--primary-color);
 color: white;
 padding: 10px 10px 6px 10px;
+font-size: 1.4rem;
+}
+.plan_inter_title {
+    text-transform: uppercase;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+}
+.plan_inter_subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    font-family: 'khula-light';
 }
 
 .plan_tips {
     text-align: center;
+    background-color: var(--background-color);
+    padding: 3rem;
+}
+
+.plan_logo{
+    margin-top: 7px;
+    font-family: 'khula-bold' ;
+    font-size: 2rem;  
+}
+.plan_tips_subtitle{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+.plan_logo span{
+  color: var(--primary-color);
+  font-family: 'khula-bold' ;
 }
 .plan_tips_content {
     display: flex;
     text-align: left;
+    gap: 6rem;
+    margin: 3rem;
+    
+}
+.tips_content_title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
+.tips_content_list {
+   
+    margin-left: 1rem;
+}
