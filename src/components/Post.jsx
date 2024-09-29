@@ -19,9 +19,9 @@ const Post = () => {
                 <img src="/icons/user.png" alt="" />
             </div>
         </header>
-        <form action="">
-            <h1>¡Empezá a publicar hoy!</h1>
-            <p>continúa los siguientes pasos y en menos de 3 minutos publica tu inmueble</p>
+        <form className='form_container' action="">
+            <h1 className='form_title'>¡Empezá a publicar hoy!</h1>
+            <p className='form_subtitle'>continúa los siguientes pasos y en menos de 3 minutos publica tu inmueble</p>
             <fieldset>
                 <input type="file" />
                 <input type="file" />
