@@ -22,7 +22,7 @@ const Post = () => {
         <form className='form_container' action="">
             <h1 className='form_title'>¡Empezá a publicar hoy!</h1>
             <p className='form_subtitle'>continúa los siguientes pasos y en menos de 3 minutos publica tu inmueble</p>
-            <fieldset>
+            <fieldset className='form_images'>
                 <input type="file" />
                 <input type="file" />
                 <input type="file" />
