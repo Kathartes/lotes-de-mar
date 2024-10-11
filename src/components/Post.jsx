@@ -45,6 +45,7 @@ const Post = () => {
             <fieldset>
                 <legend>Complete la siguiente información</legend>
                 <input type="checkbox" name="" id="" />
+                <input type="checkbox" name="" id="" />
                 <input type="checkbox"  name="" id="" />
                 <input type="checkbox"  name="" id="" />
                 <input type="checkbox"  name="" id="" />
