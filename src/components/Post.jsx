@@ -23,20 +23,20 @@ const Post = () => {
             <h1 className='form_title'>¡Empezá a publicar hoy!</h1>
             <p className='form_subtitle'>continúa los siguientes pasos y en menos de 3 minutos publica tu inmueble</p>
             <fieldset className='form_images'>
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
-                <input className='form_images_input' type="file" />
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
+                <div className='form_images_input'> foto <br /> +</div>
             </fieldset>
             <fieldset className='form_post'>
                 <legend className='form_post_legend' >CUÁL ES EL TÍTULO DE LA PUBLICACIÓN</legend>
-                <input className='form_post_input' type="text" />
+                <input className='form_post_input' type="text" placeholder='Ej: Casa de 3 dormitorios y 2 banos' />
             </fieldset>
             <fieldset>
                 <legend>DESCRIBE TU INMUEBLE</legend>
