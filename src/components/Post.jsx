@@ -38,13 +38,13 @@ const Post = () => {
                 <legend className='form_post_legend' >CUÁL ES EL TÍTULO DE LA PUBLICACIÓN</legend>
                 <input className='form_post_input' type="text" placeholder='Ej: Casa de 3 dormitorios y 2 banos' />
             </fieldset>
-            <fieldset>
-                <legend>DESCRIBE TU INMUEBLE</legend>
-                <textarea name="" id=""></textarea>
+            <fieldset className='form_post'>
+                <legend className='post_description_legend'>DESCRIBE TU INMUEBLE</legend>
+                <textarea className='post_description_textarea' name="" id=""></textarea>
             </fieldset>
-            <fieldset>
+            <fieldset className='form_post'>
                 <legend>Complete la siguiente información</legend>
-                <input type="checkbox" name="" id="" />
+                <input  type="checkbox" name="" id="" />
                 <input type="checkbox" name="" id="" />
                 <input type="checkbox"  name="" id="" />
                 <input type="checkbox"  name="" id="" />
@@ -57,15 +57,15 @@ const Post = () => {
                 <input type="checkbox"  name="" id="" />
                 <input type="checkbox"  name="" id="" />
             </fieldset>
-            <fieldset>
+            <fieldset className='form_post'>
                 <legend>PRECIO DEL INMUEBLE</legend>
                 <input type="number" />
             </fieldset>
-            <fieldset>
+            <fieldset className='form_post'>
                 <legend>Complete la dirección del inmueble</legend>
                 <input type="text" />
             </fieldset>
-            <fieldset>
+            <fieldset className='form_post'>
                 <legend>Número de contacto de la inmobiliaria</legend>
                 <input type="number" />
             </fieldset>
